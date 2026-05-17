@@ -12,7 +12,17 @@
       ],
       "devDependencies": [
         "flutter_lints",
-        "flutter_test"
+        "flutter_test",
+        "gh_pages"
+      ]
+    },
+    {
+      "name": "gh_pages",
+      "version": "0.1.1",
+      "dependencies": [
+        "args",
+        "git",
+        "path"
       ]
     },
     {
@@ -56,6 +66,23 @@
         "sky_engine",
         "vector_math"
       ]
+    },
+    {
+      "name": "path",
+      "version": "1.9.1",
+      "dependencies": []
+    },
+    {
+      "name": "git",
+      "version": "2.3.2",
+      "dependencies": [
+        "path"
+      ]
+    },
+    {
+      "name": "args",
+      "version": "2.7.0",
+      "dependencies": []
     },
     {
       "name": "lints",
@@ -114,11 +141,6 @@
         "clock",
         "collection"
       ]
-    },
-    {
-      "name": "path",
-      "version": "1.9.1",
-      "dependencies": []
     },
     {
       "name": "matcher",
